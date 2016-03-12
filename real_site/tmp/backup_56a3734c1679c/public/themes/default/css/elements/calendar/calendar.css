@@ -1,0 +1,115 @@
+/* calendar styles */
+.ajax-calendar {
+    -moz-user-select: none;
+    color: #333333;
+    font-family: Arial,sans-serif;
+    font-size: 1.1em;
+    margin: 19px auto;
+    padding: 0.4em;
+    width: 383px;
+}
+.ajax-calendar .navigation {
+    background-color: #03284d;
+    color: #FFFFFF;
+    font-weight: bold;
+    position: relative;
+    padding: 1px 0;
+    width: 373px;
+    margin: 2px;
+}
+.ajax-calendar .navigation .title {
+    border-color: rgba(0, 0, 0, 0);
+    color: inherit;
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin: 4px 0 0 0;
+    font-weight: 500;
+}
+.ajax-calendar .navigation .prev, 
+.ajax-calendar .navigation .next {
+    height: 24px;
+    position: absolute;
+    top: 50%;
+    width: 24px;
+    margin-top: -12px;
+}
+.ajax-calendar .navigation .prev span, 
+.ajax-calendar .navigation .next span{
+    font-size: 24px;
+    color: #fff;
+    opacity: 1;
+    font-weight: 100;
+    
+}
+.ajax-calendar .navigation .prev {
+    background-position: 0 0;
+    left: 10px;
+}
+.ajax-calendar .navigation .next {
+    background-position: -24px 0;
+    right: 10px;
+}
+.ajax-calendar .navigation .prev:hover span, 
+.ajax-calendar .navigation .next:hover span{
+    opacity: 0.8;
+}
+.ajax-calendar table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    font-size: 19pt;
+}
+.ajax-calendar table th {
+    border: 0 none;
+    font-weight: bold;
+    padding: 0.7em 0.3em;
+    text-align: center;
+}
+.ajax-calendar table td {
+    border: 0 none;
+}
+.ajax-calendar table td a {
+    color: #495090;
+    display: block;
+    height: 48px;
+    font-weight: normal;
+    text-align: center;
+    text-decoration: none;
+    width: 48px;
+    margin: 3px;
+    line-height: 46px;
+    color: #495090;
+    background-color: #bed8ff;
+}
+.ajax-calendar table td a span {
+    vertical-align: middle;
+    font-weight: bold;
+}
+.ajax-calendar table td.weekend a{
+    background-color: #729dff;
+    color: #080196;
+}
+.ajax-calendar table td.outsideMonth a{
+    font-weight: bold;
+    background-color: #acb7c7;
+}
+.ajax-calendar table td.today a {
+    background-color: #FBF8EE;
+    border: 1px solid #FCD3A1;
+    color: #444444;
+    font-weight: bold;
+    opacity: 1;
+}
+.ajax-calendar table td.tournament-date a{
+    background-color: #ff6600;
+    color: #fff;
+}
+.ajax-calendar table td a:hover {
+    color: #fff;
+    background-color: #000;
+}
+.ajax-calendar table td.outsideMonth a:hover{
+    cursor: default;
+    font-weight: bold;
+    background-color: #acb7c7;
+}

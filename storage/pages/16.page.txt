@@ -1,0 +1,15 @@
+&lt;div id=&quot;date&quot;&gt;30.08.2015&lt;/div&gt;
+&lt;div id=&quot;time&quot;&gt;00:00-06:00&lt;/div&gt;
+
+&lt;div id=&quot;teams-list&quot;&gt;
+ &lt;ol&gt;
+	 &lt;li&gt;Бобики&lt;/li&gt;
+	 &lt;li&gt;Мстители&lt;/li&gt;
+	 &lt;li&gt;Зенит&lt;/li&gt;
+	 &lt;li&gt;Белорусь&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;link&quot;&gt;
+&lt;a href=&quot;&quot; target=&quot;_blank&quot;&gt;Ссылка на альбом в ВК&lt;/a&gt;
+&lt;/div&gt;

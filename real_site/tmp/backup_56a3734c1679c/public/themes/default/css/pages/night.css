@@ -1,0 +1,605 @@
+/* Night page specific styles
+-------------------------------------------------- */
+
+#night {
+    background: #0f1319;
+    color: white;
+}
+
+#night h2 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+#night .navbar-default {
+    background-color: #0a1c2d;
+}
+
+#night .navbar-default .navbar-nav > li {
+    border-left: 2px solid #9199a0;
+}
+
+#night .navbar-default .navbar-nav > li > a {
+    background-color: #0a1c2d;
+    color: white;
+}
+
+#night .navbar-default .navbar-nav > .active > a,
+#night .navbar-default .navbar-nav > li:hover > a {
+    background-color: #030c14 !important;
+}
+
+#night .footer {
+    background: #0a1c2d;
+    color: white;
+}
+
+#night .button {
+    background-color: #0a1c2d;
+    box-shadow: 0 0 10px #fff;
+    cursor: pointer;
+}
+
+#night .button:hover {
+    background-color: #030c14 !important;
+}
+
+#night .content .col-md-3 .row:first-child {
+    margin-bottom: 35px;
+}
+
+#night .register-button {
+    display: block;
+    height: 50px;
+    width: 310px;
+    line-height: 50px;
+}
+
+#night .register-button span {
+    display: inline-block;
+    vertical-align: middle;
+
+    color: white;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 200;
+    font-family: Arial, sans-serif;
+}
+
+#night .content .col-md-7 {
+    margin-left: 100px;
+}
+
+#night .content .col-md-3 {
+    min-width: 410px !important;
+}
+
+#night .content .col-md-3 .row > div {
+    text-align: center;
+}
+
+#night .content .col-md-3,
+#night .content .col-md-2 {
+    padding-top: 20px;
+}
+
+#night .content .col-md-3 .row > div > div,
+#night .content .col-md-2 .row > div > div {
+    display: inline-block;
+}
+
+#night .content .col-md-3 .row:nth-child(2) .image-block {
+    display: table;
+    height: 320px;
+    width: 365px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #000;
+}
+
+#night .content .col-md-3 .row:nth-child(2) .image-block p {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    margin: 0;
+}
+
+#night .content .col-md-3 .row:nth-child(2) .image-block p img {
+    width: inherit;
+}
+
+#night .round-night-button {
+    width: 75px;
+    height: 75px;
+}
+
+#night .content .col-md-2 .row {
+    margin-bottom: 20px;
+    padding-right: 20px;
+}
+
+#night .content .col-md-2 .row > div {
+    text-align: center;
+}
+
+#night .content .col-md-2 .row:nth-child(1) .round-night-button {
+    background: #0a1c2d url('../../../../uploads/night-button-bg-1.png') no-repeat center center;
+}
+
+#night .content .col-md-2 .row:nth-child(2) .round-night-button {
+    background: #0a1c2d url('../../../../uploads/night-button-bg-2.png') no-repeat center center;
+}
+
+#night .content .col-md-2 .row:nth-child(3) .round-night-button {
+    background: #0a1c2d url('../../../../uploads/night-button-bg-3.png') no-repeat center center;
+}
+
+#night .popup {
+    background-color: rgba(54, 64, 76, 0.61);
+}
+
+#night .popup-close {
+    z-index: 9999;
+    width: 49px;
+    height: 49px;
+    top: 10px;
+    right: 10px;
+    background: url('../../../../uploads/close-popup-button-night.png') no-repeat 0 center;
+}
+
+#night .popup-close:hover {
+    background-position: -49px center;
+}
+
+#night .popup-close.fake-close {
+    background: url('../../../../uploads/back-popup-button-night.png') no-repeat 0 center;
+    display: none;
+    z-index: 9998;
+    right: 66px;
+}
+
+#night .popup-close.fake-close:hover {
+    background-position: -49px center;
+}
+
+#night .popup-window {
+    background-color: #0f1319;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+}
+
+#night .register-form {
+    width: 555px;
+    height: 375px;
+    margin-left: -277.5px;
+    margin-top: -187.5px;
+
+    font-size: 18pt;
+    font-family: Arial, sans-serif;
+}
+
+#night .register-form input {
+    width: 220px;
+    height: 35px;
+    padding: 2px 3px;
+    color: #000;
+}
+
+#night .register-form .row .col-xs-12 {
+    text-align: center;
+}
+
+#night .register-form .row:nth-child(3) {
+    margin-top: 0 !important;
+}
+
+#night .register-form .row:nth-child(4) {
+    margin-top: 30px !important;
+}
+
+#night .register-form .row {
+    margin-top: 10px;
+}
+
+#night label {
+    font-weight: 200;
+    margin: 0;
+}
+
+#night .label-register {
+    text-align: right;
+}
+
+#night .register-form .register-button {
+    display: block;
+    height: 45px;
+    width: 270px;
+    margin: 15px auto 0;
+    line-height: 35px;
+    border: none;
+}
+
+#night .register-form .register-button span {
+    display: inline-block;
+    vertical-align: middle;
+
+    color: white;
+    text-transform: capitalize;
+    font-size: 18pt;
+    font-weight: normal;
+    font-family: Arial, sans-serif;
+}
+
+#night .register-form .result-list {
+    margin-top: 35px;
+}
+
+#night .calendar,
+#night .teams,
+#night .archive {
+    width: 838px;
+    height: 497px;
+    margin-left: -419px;
+    margin-top: -248.5px;
+}
+
+#night .popup h2 {
+    text-transform: none;
+    font-size: 28pt;
+    font-weight: 200;
+}
+
+#night .teams .teams-list {
+    height: 400px;
+    padding: 0 60px;
+    margin-right: 24px;
+    margin-top: 15px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#night .teams .teams-list > .row {
+    margin-top: 10px;
+}
+
+#night .teams .teams-list .row:first-child {
+    margin-top: 0;
+}
+
+#night .teams .team .logo {
+    width: 100%;
+    height: 162px;
+    background: #6b8aa7 no-repeat center;
+    background-size: 95%;
+    margin-bottom: 6px;
+
+    transition: background-color 0.1s ease;
+}
+
+#night .teams .team .name {
+    font-family: Arial, sans-serif;
+    font-size: 14pt;
+
+    transition: color 0.1s ease;
+}
+
+#night .teams .team .logo,
+#night .teams .team .name {
+    cursor: pointer;
+}
+
+#night .teams .team:hover .logo {
+    background-color: #567089;
+}
+
+#night .teams .team:hover .name {
+    color: #567089;
+}
+
+#night .teams .teams-description {
+    padding: 20px 55px 35px;
+    height: 400px;
+    padding: 0 60px;
+    margin-right: 24px;
+    margin-top: 15px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#night .teams .teams-description > .row {
+    display: none;
+}
+
+#night .teams .team-descr .logo {
+    height: 300px;
+    background: #6b8aa7 no-repeat center;
+}
+
+#night .teams .team-descr .name {
+    font-size: 34pt;
+}
+
+#night .teams .team-descr .members-list {
+    font-size: 18pt;
+}
+
+#night .teams .team-descr .members-list .list-title {
+    padding-right: 0;
+    text-align: right;
+}
+
+#night .teams .team-descr .members-list .list-content {
+    height: 300px;
+    overflow-x: visible;
+    overflow-y: auto;
+}
+
+
+#night .qtip-night-page{
+    background-color: #ff6600;
+    color: #fff;
+    font-weight: bold;
+}
+
+#night .qtip-night-page span {
+    font-weight: normal;
+    font-size: 12pt;
+}
+
+#night .archive .archive-list {
+    height: 405px;
+    padding: 0 20px;
+    margin-top: 18px;
+    margin-right: 24px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#night .archive table {
+    width: 100%;
+    font-size: 18pt;
+}
+
+#night .archive table tr {
+    border: 2px solid #fff;
+    border-left: none;
+    border-right: none;
+}
+
+#night .archive table .title-row {
+    background-color: #0a1c2d;
+}
+
+#night .archive table .link a {
+    color: #bbb;
+}
+
+#night .archive table .link a:hover {
+    color: #fff;
+}
+
+#night .archive table td {
+    padding: 10px;
+}
+
+#night .archive table tr td:first-child {
+    padding-left: 18px;
+}
+
+#night .archive .teams-list li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+@media (max-width: 1250px) {
+    #night .col-md-2 {
+        width: 410px;
+        text-align: center;
+    }
+
+    #night .col-md-2 {
+        margin-top: 20px;
+    }
+
+    #night .col-md-2 > .row {
+        display: inline-block;
+    }
+
+    #night .content .col-md-2 .row {
+        margin-bottom: 20px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
+
+@media (max-width: 991px) {
+    #night .content .col-md-5 {
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    #night .content .col-md-2 {
+        margin: 0 auto;
+    }
+
+    #night ul {
+        list-style-position: inside;
+        padding-left: 0;
+        margin-top: 10px;
+    }
+
+    #night ul.nav {
+        margin-top: 0;
+    }
+
+    #night .register-button {
+        width: 250px;
+        line-height: 50px;
+    }
+
+    #night .register-button span {
+        font-size: 18px;
+    }
+
+    #night .content .col-md-3{
+        min-width: 1px !important;
+    }
+
+    #night .content .col-md-3 .row:nth-child(2) .image-block {
+        height: 255px;
+        width: 285px;
+    }
+
+    #night .col-md-2 {
+        width: auto;
+    }
+
+    #night .content .col-md-2 .row {
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+    #night .popup h2 {
+        font-size: 25pt;
+        margin-right: 45px;
+    }
+
+    #night .calendar,
+    #night .teams,
+    #night .archive {
+        width: 500px;
+        height: 497px;
+        margin-left: -250px;
+        margin-top: -248.5px;
+    }
+
+    #night .teams .teams-list,
+    #night .teams .teams-description
+    {
+        margin-top: 25px;
+    }
+
+    #night .teams .team {
+        margin-bottom: 20px;
+    }
+
+    #night .teams .team .logo {
+        height: 162px;
+        background-size: auto;
+    }
+
+    #night .teams .team-descr .members-list .list-content {
+        height: auto;
+        text-align: center;
+    }
+
+    #night .teams .team-descr .members-list .list-title {
+        text-align: center;
+    }
+}
+
+@media (max-width: 620px) {
+    #night .register-form {
+        width: 300px;
+        height: 510px;
+        margin-left: -150px;
+        margin-top: -255px;
+        font-size: 18pt;
+        font-family: Arial, sans-serif;
+        text-align: center;
+    }
+
+    #night .register-form .col-xs-6 {
+        float: none;
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    #night label {
+        font-size: 16pt;
+    }
+
+    #night .label-register {
+        text-align: center;
+    }
+
+    #night .register-form .row {
+        margin-top: 2px;
+    }
+
+    #night .register-form .row:nth-child(2){
+        margin-top: 60px;
+    }
+
+    #night .register-form .row:nth-child(4) {
+        margin-top: 2px !important;
+    }
+
+    #night .register-form .register-button {
+        margin: 22px auto 0;
+    }
+}
+
+@media (max-width: 550px) {
+    #night .calendar,
+    #night .teams,
+    #night .archive {
+        width: 300px;
+        height: 497px;
+        margin-left: -150px;
+        margin-top: -248.5px;
+    }
+
+    #night .calendar {
+        height: 376px;
+        margin-top: -188px;
+    }
+
+    #night .calendar h2 {
+        font-size: 14pt;
+        margin-top: 28px;
+        text-transform: uppercase;
+    }
+
+    #night .teams .team .logo {
+        height: 130px;
+        background-size: contain;
+    }
+
+    #night .teams .teams-description {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #night .teams .team-descr .logo {
+        height: 209px;
+        background-size: 95%;
+    }
+
+    #night .teams .team-descr .name {
+        font-size: 24pt;
+    }
+
+    .ajax-calendar {
+        width: auto;
+    }
+
+    #night .ajax-calendar table td a {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+    }
+
+    #night .ajax-calendar table {
+        font-size: 14pt;
+    }
+
+    #night .ajax-calendar .navigation {
+        width: 282px;
+    }
+}

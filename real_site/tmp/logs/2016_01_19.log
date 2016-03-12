@@ -1,0 +1,18 @@
+[19-Jan-2016 20:24:01] phpmailerException: The following From address failed: root@localhost : MAIL FROM command failed,Sender address rejected: not owned by auth user.
+,553,5.7.1SMTP server error: MAIL FROM command failed Detail: Sender address rejected: not owned by auth user.
+ SMTP code: 553 Additional SMTP info: 5.7.1 in /var/www/vhosts/22/136779/webspace/httpdocs/bubble-park.ru/libraries/PHPMailer/class.phpmailer.php at line 1321
+[19-Jan-2016 20:24:41] phpmailerException: The following From address failed: root@localhost : MAIL FROM command failed,Sender address rejected: not owned by auth user.
+,553,5.7.1SMTP server error: MAIL FROM command failed Detail: Sender address rejected: not owned by auth user.
+ SMTP code: 553 Additional SMTP info: 5.7.1 in /var/www/vhosts/22/136779/webspace/httpdocs/bubble-park.ru/libraries/PHPMailer/class.phpmailer.php at line 1321
+[19-Jan-2016 20:25:13] phpmailerException: The following From address failed: root@localhost : MAIL FROM command failed,Sender address rejected: not owned by auth user.
+,553,5.7.1SMTP server error: MAIL FROM command failed Detail: Sender address rejected: not owned by auth user.
+ SMTP code: 553 Additional SMTP info: 5.7.1 in /var/www/vhosts/22/136779/webspace/httpdocs/bubble-park.ru/libraries/PHPMailer/class.phpmailer.php at line 1321
+[19-Jan-2016 20:26:08] phpmailerException: The following From address failed: root@localhost : MAIL FROM command failed,Sender address rejected: not owned by auth user.
+,553,5.7.1SMTP server error: MAIL FROM command failed Detail: Sender address rejected: not owned by auth user.
+ SMTP code: 553 Additional SMTP info: 5.7.1 in /var/www/vhosts/22/136779/webspace/httpdocs/bubble-park.ru/libraries/PHPMailer/class.phpmailer.php at line 1321
+[19-Jan-2016 20:26:09] phpmailerException: The following From address failed: root@localhost : MAIL FROM command failed,Sender address rejected: not owned by auth user.
+,553,5.7.1SMTP server error: MAIL FROM command failed Detail: Sender address rejected: not owned by auth user.
+ SMTP code: 553 Additional SMTP info: 5.7.1 in /var/www/vhosts/22/136779/webspace/httpdocs/bubble-park.ru/libraries/PHPMailer/class.phpmailer.php at line 1321
+[19-Jan-2016 20:27:15] phpmailerException: The following From address failed: root@localhost : MAIL FROM command failed,Sender address rejected: not owned by auth user.
+,553,5.7.1SMTP server error: MAIL FROM command failed Detail: Sender address rejected: not owned by auth user.
+ SMTP code: 553 Additional SMTP info: 5.7.1 in /var/www/vhosts/22/136779/webspace/httpdocs/bubble-park.ru/libraries/PHPMailer/class.phpmailer.php at line 1321

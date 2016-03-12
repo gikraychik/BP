@@ -1,0 +1,45 @@
+Цена за час:
+&lt;fix-price&gt;6500&lt;/fix-price&gt;
+
+Далее указывается любое количество скидок в формате указанном в примерах ниже, где в тэге name -- подпись к скидке, в value значение скидки в процентах.
+В атрибуте id указывается уникальное имя элемента, если требуется.
+В атрибуте exclude нужно указывать id скидок, которые не работают одновременно с данной.
+В атрибуте include может указываться:
+	  - id той скидки, одновременно с которой может работать данная скидка 
+	  - строка типа hour#more-2, которая означает, что скидка работает только если выбрано 2 часа и более. Вместо more в этой сроке можно указывать less.
+
+&lt;sale id=&quot;student&quot; exclude=&quot;shoolar&quot;&gt;
+	 &lt;name&gt;Студент&lt;/name&gt;
+	 &lt;value&gt;5&lt;/value&gt;
+	 &lt;description&gt;При предъявлении хотя бы одного студенческого билета&lt;/description&gt;
+&lt;/sale&gt;
+
+&lt;sale id=&quot;shoolar&quot; exclude=&quot;student&quot;&gt;
+	 &lt;name&gt;Школьник&lt;/name&gt;
+	 &lt;value&gt;5&lt;/value&gt;
+	 &lt;description&gt;При предъявлении хотя бы одного ученического билета&lt;/description&gt;
+&lt;/sale&gt;
+
+&lt;sale&gt;
+	 &lt;name&gt;День Рождения&lt;/name&gt;
+	 &lt;value&gt;10&lt;/value&gt;
+	 &lt;description&gt;Скидка действует в течение трех дней до дня рождения и трех дней после&lt;/description&gt;
+&lt;/sale&gt;
+
+&lt;sale&gt;
+	 &lt;name&gt;Будни&lt;/name&gt;
+	 &lt;value&gt;20&lt;/value&gt;
+	 &lt;description&gt;При заказе игры на будний день&lt;/description&gt;
+&lt;/sale&gt;
+
+&lt;sale include=&quot;promo&quot;&gt;
+	 &lt;name&gt;Промо-Код&lt;/name&gt;
+	 &lt;value&gt;10&lt;/value&gt;
+	 &lt;description&gt;При наличии промокода&lt;/description&gt;
+&lt;/sale&gt;
+
+&lt;sale include=&quot;hour#more-2&quot;&gt;
+	 &lt;name&gt;От 2-х часов&lt;/name&gt;
+	 &lt;value&gt;20&lt;/value&gt;
+	 &lt;description&gt;При заказе игры на 2 часа и более&lt;/description&gt;
+&lt;/sale&gt;

@@ -1,0 +1,17 @@
+/* Contact page specific styles
+-------------------------------------------------- */
+
+#contact .google-map {
+	width: 100%;
+	height: 600px;
+}
+
+#contact .content p {
+	font-size: 14pt;
+}
+
+@media (max-width: 991px) {
+	#contact .content .col-md-6:first-child{
+		margin-bottom: 20px;
+	}
+}

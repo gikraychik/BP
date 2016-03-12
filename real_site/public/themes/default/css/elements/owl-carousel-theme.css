@@ -1,0 +1,33 @@
+.owl-carousel .owl-controls {
+    text-align: right;
+}
+
+.owl-carousel .owl-controls .owl-pagination {
+    position: relative;
+    margin-top: -60px;
+    padding-right: 20px;
+}
+
+.owl-controls .owl-pagination .owl-page > span {
+    width: 25px;
+    height: 25px;
+    margin: 0 0 0 20px;
+    background-color: #3f9eff;
+    opacity: 1;
+    box-shadow:0 3px 10px black;
+}
+
+.owl-controls .owl-pagination .owl-page > span:hover,
+.owl-controls .owl-pagination .owl-page.active > span{
+    background-color: #337dc9;
+}
+
+.owl-carousel .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.owl-carousel.box {
+    padding: 0 0 20px;
+}

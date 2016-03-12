@@ -1,0 +1,8 @@
+&lt;div class=&quot;navigation&quot;&gt;
+    &lt;a class=&quot;prev&quot; href=&quot;night?month=__prev_month__&quot; onclick=&quot;$.pjax({{url: &#039;night?month=__prev_month__&amp;_r=&#039; + Math.random(), push: false, from:&#039;form&#039;, container: &#039;#calendar&#039;}}); return false;&quot;&gt;&lt;span class=&quot;glyphicon glyphicon-menu-left&quot;&gt;&lt;/span&gt;&lt;/a&gt;
+    &lt;div class=&quot;title&quot; &gt;__cal_caption__&lt;/div&gt;
+    &lt;a class=&quot;next&quot; href=&quot;night?month=__next_month__&quot; onclick=&quot;$.pjax({{url: &#039;night?month=__next_month__&amp;_r=&#039; + Math.random(), push: false, from:&#039;form&#039;, container: &#039;#calendar&#039;}}); return false;&quot;&gt;&lt;span class=&quot;glyphicon glyphicon-menu-right&quot;&gt;&lt;/span&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;table&gt;
+    __cal_rows__
+&lt;/table&gt;

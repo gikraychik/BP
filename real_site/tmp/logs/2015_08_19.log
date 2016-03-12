@@ -1,0 +1,2 @@
+[19-Aug-2015 09:37:50] ErrorException: Warning: mkdir(): File exists in /var/www/vhosts/22/136779/webspace/httpdocs/bubble-park.ru/libraries/Gelato/Cache/Cache.php at line 139
+[19-Aug-2015 22:27:43] ErrorException: Warning: array_fill(): Number of elements must be positive in /var/www/vhosts/22/136779/webspace/httpdocs/bubble-park.ru/tmp/minify/theme.default.minify.content-night.chunk.php at line 200

@@ -1,0 +1,578 @@
+/* Price page specific styles
+-------------------------------------------------- */
+
+/* specific styles */
+#price .content {
+    padding: 0 40px 40px;
+}
+
+#price .content > .row {
+    display: block;
+    margin: 0 auto;
+}
+
+#price .content .title-row {
+    text-align: center;
+}
+
+#price .content .hours-row {
+    line-height: 32pt;
+    margin-bottom: 20px;
+}
+
+#price .content .hours-row > * {
+    vertical-align: middle;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+#price .hours-row > label {
+    margin-right: 10px;
+}
+
+#price .hours-row > input[type=radio].css-checkbox + label.css-label {
+    line-height: 32px;
+}
+
+#price .hours-row > label {
+    margin-bottom: 0;
+}
+
+#price .price-row {
+    position: relative;
+}
+
+#price .price-row > .title {
+    margin-bottom: 20px;
+    font-size: 20pt;
+}
+
+#price .price-row > .button {
+    padding-bottom: 20px;
+}
+
+#price .price-row > .button > div:first-child {
+    font-size: 29pt;
+}
+
+#price .price-row > .button > div:nth-child(2) {
+    font-size: 48pt;
+}
+
+#price .price-row > .button > div:first-child > div:nth-child(2) {
+    text-align: right;
+}
+
+#price .price-row > .button > div:nth-child(3) {
+    text-align: center;
+    font-size: 72pt;
+    font-weight: bold;
+}
+
+#price .button-row {
+    margin-top: 50px;
+}
+
+#price .button-row > a {
+    font-size: 30pt;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+#price .button-row > .button:hover {
+    background-color: #378be0;
+}
+
+#price .col-fix {
+    width: 520px;
+    float: left;
+    margin-bottom: 60px;
+}
+
+#price .col-flexible {
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+#price .col-hack {
+    display: none;
+}
+
+#price .item {
+    display: block;
+    height: 120px;
+    line-height: 120px;
+    text-align: right;
+    margin-bottom: 20px;
+    padding-right: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+#price .item > * {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#price .item > .circle {
+    width: 100px;
+    height: 100px;
+    margin-left: 40px;
+    line-height: 100px;
+}
+
+#price .item > .circle > span {
+    vertical-align: middle;
+}
+
+#price .item > span {
+    font-size: 24pt;
+}
+
+#price .item > a {
+    background-color: #3f9eff;
+    text-decoration: none;
+}
+
+#price .item > a:hover {
+    background-color: #378be0;
+    text-decoration: none;
+}
+
+#price .item > a:active {
+    text-decoration: none;
+}
+
+#price .content .item > a.disabled-sale {
+    background-color: #ccc;
+}
+
+#price .item > a.disabled-sale:hover {
+    background-color: #ccc;
+}
+
+#price .content .item > a.checked-sale {
+    background-color: #46ff53;
+}
+
+#price .item > a.checked-sale:hover {
+    background-color: #46ee53;
+}
+
+#price .item > a > span {
+    font-size: 32pt;
+    color: white;
+    font-weight: bold;
+    font-family: 'bauhaus_93regular';
+}
+
+#price .popup-window {
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    background-color: #bbddff;
+}
+
+#price .popup .order-form {
+    width: 600px;
+    height: 500px;
+    margin-top: -250px;
+    margin-left: -300px;
+    padding: 20px 40px;
+}
+
+#price .popup .order-form > .popup-content {
+    margin-top: 50px;
+    text-align: left;
+    font-size: 16pt;
+    font-family: Arial, sans-serif;
+}
+
+#price .popup .order-form > .popup-content .row {
+    margin-bottom: 10px;
+}
+
+#price .popup .order-form > .popup-content .row > div:first-child {
+    width: 3px;
+    padding-right: 0;
+    text-align: right;
+}
+
+#price .popup .order-form > .popup-content .row:nth-child(4) {
+    margin-bottom: 30px;
+}
+
+#price .popup .order-form > .popup-content .row:nth-child(5) {
+    margin-bottom: 40px;
+}
+
+#price .popup .order-form > .popup-content .row:nth-child(n+6) {
+    margin-bottom: 2px;
+}
+
+#price .popup .order-form > .popup-content .row:nth-child(8) {
+    margin-bottom: 30px;
+}
+
+#price .popup .order-form > .popup-content .row > div {
+    line-height: 30px;
+}
+
+#price .popup .order-form > .popup-content label {
+    font-weight: 200;
+    vertical-align: middle;
+    margin-bottom: 0;
+    color: #000;
+}
+
+#price .popup .order-form > .popup-content input {
+    vertical-align: middle;
+    width: 200px;
+    height: 32px;
+    padding: 0 5px;
+}
+
+#price .popup .order-form > .popup-content input.input-time {
+    width: 70px;
+}
+
+#price .popup-close {
+    width: 44px;
+    height: 44px;
+    background: url('../../../../uploads/close-popup-button.png') no-repeat 0 center;
+}
+
+#price .popup-close:hover {
+    background-position: -44px center;
+}
+
+#price .popup .order-form > .popup-close {
+    z-index: 9999;
+    top: 50px;
+    right: 50px;
+}
+
+#price .info-button {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 16px;
+    right: 19px;
+    background-color: #fff;
+    cursor: pointer;
+
+    text-align: center;
+    line-height: 40px;
+}
+
+#price .info-button:hover {
+    opacity: 0.8;
+}
+
+#price .info-button > span {
+    font-size: 27pt;
+    vertical-align: middle;
+    color: #3f9eff;
+}
+
+#price .popup .info {
+    width: 450px;
+    height: 250px;
+    margin-left: -225px;
+    margin-top: -125px;
+    padding: 35px;
+}
+
+#price .info .popup-close{
+    top: 5px;
+    right: 5px;
+}
+
+#price .popup .promo {
+    width: 450px;
+    height: 218px;
+    margin-left: -225px;
+    margin-top: -109px;
+    padding: 70px 35px 35px;
+
+    font-size: 20pt;
+}
+
+#price .promo .promo-col-label {
+    padding-right: 0;
+    text-align: right;
+}
+
+#price .promo label {
+    height: auto;
+    vertical-align: middle;
+    margin: 0;
+    font-weight: normal;
+}
+
+#price .promo input{
+    width:100%;
+    padding: 3px;
+}
+
+#price .promo .form-button {
+    display: block;
+    margin: 30px auto 0;
+}
+
+#price .promo .popup-close{
+    top: 5px;
+    right: 5px;
+}
+
+#price .promo .result-list{
+    margin-top: 103px;
+}
+
+@media (max-width: 1515px) {
+    #price .col-flexible {
+        margin-top: 20px;
+        padding-left: 50px;
+    }
+
+    #price .col-flexible .item {
+        height: 160px;
+        text-align: center;
+        line-height: inherit;
+        margin-bottom: 0;
+    }
+
+    #price .col-flexible .item > span,
+    #price .col-flexible .item > .button {
+        display: block;
+        margin: 0 auto;
+    }
+
+    #price .item > .circle {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 1200px) {
+    #price .col-fix {
+        float: none;
+        margin: 0 auto 60px;
+    }
+
+    #price .col-flexible {
+        margin: 0 auto;
+        width: 520px;
+        padding-left: 0;
+    }
+
+    #price .col-true {
+        display: none;
+    }
+
+    #price .col-hack {
+        display: block;
+    }
+}
+
+@media (max-width: 640px) {
+    #price .order-form {
+        position: absolute;
+        margin-top: -275px;
+        margin-left: -150px;
+    }
+
+    #price .popup .order-form > .popup-close {
+        top: 10px;
+        right: 10px;
+    }
+
+    #price .popup .order-form {
+        padding: 20px 20px;
+        width: 300px;
+        height: 550px;
+        margin-left: -150px;
+        margin-top: -275px;
+        overflow: visible;
+    }
+
+    #price .popup .order-form .popup-content {
+        margin-top: 10px;
+        font-size: 14pt;
+    }
+
+    #price .popup .order-form .popup-content .col-xs-3 {
+        width: 91.6666666%;
+    }
+
+    #price .popup .order-form .popup-content .col-xs-8,
+    #price .popup .order-form .popup-content .col-xs-11 {
+        float: none;
+    }
+
+    #price .popup .order-form > .popup-content .row:nth-child(4) {
+        margin-bottom: 20px;
+    }
+
+    #price .popup-content .row:nth-child(5) .col-xs-11 label {
+        display: block;
+    }
+
+    #price .popup .order-form > .popup-content input {
+        font-size: 12pt;
+    }
+
+    #price .popup .order-form > .popup-content input.input-time {
+        width: 63px;
+    }
+
+    #price .popup .order-form > .popup-content input.input-date {
+        width: 130px;
+    }
+
+    #price .order-form .result-list {
+        display: none;
+        position: static;
+        margin: 20px auto 0;
+        text-align: center;
+    }
+}
+
+@media (max-width: 620px) {
+    #price .item > .circle {
+        width: 70px;
+        height: 70px;
+        margin-left: 40px;
+        line-height: 70px;
+    }
+
+    #price .item > span {
+        font-size: 18pt;
+    }
+
+    #price .item > a > span {
+        font-size: 20pt;
+    }
+
+    #price .col-flexible .item {
+        height: 116px;
+    }
+
+    #price .content .hours-row {
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    #price .content .hours-row .title:after {
+        content: '\A';
+        white-space: pre;
+    }
+
+    #price .content .price-row .title {
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+    #price .price-row > .button > div:first-child {
+        font-size: 20pt;
+    }
+
+    #price .price-row > .button > div:nth-child(2) {
+        font-size: 38pt;
+    }
+
+    #price .price-row > .button > div:first-child > div:nth-child(2) {
+        text-align: right;
+    }
+
+    #price .price-row > .button > div:nth-child(3) {
+        text-align: center;
+        font-size: 62pt;
+        font-weight: bold;
+    }
+
+    #price .col-flexible,
+    #price .col-fix {
+        width: 100%;
+    }
+
+    #price .content .title {
+        font-size: 20pt;
+        font-weight: bold;
+    }
+
+    #price .content .title-row {
+        line-height: 25px;
+        margin-bottom: 10px;
+    }
+
+    #price .col-flexible .item > span {
+        font-size: 12pt;
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+
+    #price .col-flexible .item > a > span {
+        font-size: 16pt;
+    }
+
+    #price .item > .circle {
+        width: 60px;
+        height: 60px;
+        margin-left: 40px;
+        line-height: 60px;
+    }
+
+    #price .price-row > .button > div:nth-child(3) {
+        text-align: center;
+        font-size: 52pt;
+        font-weight: bold;
+    }
+
+    #price .button-row > .button {
+        font-size: 20pt;
+        padding: 10px 0;
+    }
+
+    #price .popup .info {
+        width: 300px;
+        height: 400px;
+        margin-left: -150px;
+        margin-top: -200px;
+        padding-top: 51px;
+    }
+    #price .info-button {
+        bottom: 5px;
+        right: 7px;
+    }
+}
+
+@media (max-width: 500px) {
+
+    #price .popup .promo {
+        width: 300px;
+        margin-left: -150px;
+        padding-top: 38px;
+    }
+
+    #price .promo-col-submit .form-button{
+        margin-top: 22px;
+    }
+
+    #price .promo-col-label {
+        display: block;
+        float: none;
+        width: auto;
+    }
+
+    #price .promo-col-label label {
+        display: block;
+        width: 100%;
+        text-align: center;;
+    }
+
+    #price .promo-col-input {
+        width: 100%;
+        margin-top: 12px;
+    }
+}

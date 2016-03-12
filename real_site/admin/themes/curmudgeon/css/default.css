@@ -1,0 +1,508 @@
+/************************************
+  - Monstra default.css
+  - Admin Theme name: Curmudgeon
+  - Designed and built with all the love in the world by Aryandhani - @Aryandhani.
+
+*************************************
+  CONTENTS
+    1. GENERAL
+    2. HEADER
+    3. AUTHORIZATION
+    4. CUSTOM STYLE
+    5. MEDIA QUERIES
+
+*************************************
+    1. GENERAL
+*************************************/
+
+/* Google Web Fonts */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/DXI1ORHCpsQm3Vp6mXoaTXhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/k3k702ZOKiLJc3WVjuplzHhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/PRmiXeptR36kaC0GEAetxjqR_3kx9_hJXbbyU8S6IN0.woff) format('woff');
+}
+
+/* Global */
+body {
+  background: #377584 url('@theme_admin_url/img/background.jpg') top center no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #333333;
+}
+body.admin-dashboard {
+  padding-top: 60px;
+}
+
+/* Typo */
+p {
+  line-height: 24px;
+}
+
+/* Selection */
+::-moz-selection {
+  background-color: #333333;
+  text-shadow: none;
+  color: #ffffff;
+}
+::selection {
+  background-color: #333333;
+  text-shadow: none;
+  color: #ffffff;
+}
+img::-moz-selection {
+  background: transparent;
+}
+img::selection {
+  background: transparent;
+}
+
+/* Faded out hr */
+hr.soften {
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, .1), rgba(0, 0, 0, 0));
+  background-image:    -moz-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, .1), rgba(0, 0, 0, 0));
+  background-image:     -ms-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, .1), rgba(0, 0, 0, 0));
+  background-image:      -o-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, .1), rgba(0, 0, 0, 0));
+  border: 0;
+  margin: 20px 0;
+}
+
+/* Table */
+table {
+  max-width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  background-color: transparent;
+}
+.table {
+  width: 100%;
+  margin-bottom: 18px;
+}
+.table th,
+.table td {
+  padding: 8px;
+  line-height: 18px;
+  text-align: left;
+  border-top: 1px solid #dddddd;
+}
+.table th {
+  font-weight: bold;
+}
+.table thead th {
+  vertical-align: bottom;
+}
+.table colgroup + thead tr:first-child th,
+.table colgroup + thead tr:first-child td,
+.table thead:first-child tr:first-child th,
+.table thead:first-child tr:first-child td {
+  border-top: 0;
+}
+.table tbody + tbody {
+  border-top: 2px solid #dddddd;
+}
+.table-condensed th,
+.table-condensed td {
+  padding: 4px 5px;
+}
+.table-bordered {
+  border: 1px solid #dddddd;
+  border-left: 0;
+  border-collapse: separate;
+  *border-collapse: collapsed;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+.table-bordered th:first-child,
+.table-bordered td:first-child {
+  border-left: 1px solid #dddddd;
+}
+
+.table-bordered td:first-child {
+  padding-left:15px;
+}
+
+.table-bordered thead:first-child tr:first-child th,
+.table-bordered tbody:first-child tr:first-child th,
+.table-bordered tbody:first-child tr:first-child td {
+  border-top: 0;
+}
+.table-bordered thead:first-child tr:first-child th:first-child,
+.table-bordered tbody:first-child tr:first-child td:first-child {
+  -webkit-border-radius: 4px 0 0 0;
+  -moz-border-radius: 4px 0 0 0;
+  border-radius: 4px 0 0 0;
+}
+.table-bordered thead:first-child tr:first-child th:last-child,
+.table-bordered tbody:first-child tr:first-child td:last-child {
+  -webkit-border-radius: 0 4px 0 0;
+  -moz-border-radius: 0 4px 0 0;
+  border-radius: 0 4px 0 0;
+}
+.table-bordered thead:last-child tr:last-child th:first-child,
+.table-bordered tbody:last-child tr:last-child td:first-child {
+  -webkit-border-radius: 0 0 0 4px;
+  -moz-border-radius: 0 0 0 4px;
+  border-radius: 0 0 0 4px;
+}
+
+.table-bordered thead tr th {
+  font-weight:bold;
+  background-color: #f5f5f5;
+  background-repeat: repeat-x;
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#ffffff), to(#f5f5f5));
+  background-image: -moz-linear-gradient(top, #ffffff, #f5f5f5);
+  background-image: -ms-linear-gradient(top, #ffffff, #f5f5f5);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #f5f5f5));
+  background-image: -webkit-linear-gradient(top, #ffffff, #f5f5f5);
+  background-image: -o-linear-gradient(top, #ffffff, #f5f5f5);
+  background-image: linear-gradient(top, #ffffff, #f5f5f5);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f5f5f5', GradientType=0);
+  border-top: 1px solid #fff;  
+}
+
+.table-bordered thead:last-child tr:last-child th:last-child,
+.table-bordered tbody:last-child tr:last-child td:last-child {
+  -webkit-border-radius: 0 0 4px 0;
+  -moz-border-radius: 0 0 4px 0;
+  border-radius: 0 0 4px 0;
+}
+
+.table-bordered thead:first-child tr:first-child > th:first-child, .table-bordered tbody:first-child tr:first-child > td:first-child {
+    border-top-left-radius: 0px;
+}
+
+.table-bordered thead:last-child tr:last-child > th:last-child,
+.table-bordered tbody:last-child tr:last-child > td:last-child {
+    border-top-right-radius: 0px;
+}
+
+.table-striped tbody tr:nth-child(odd) td,
+.table-striped tbody tr:nth-child(odd) th {
+  background-color: #f9f9f9;
+}
+.table tbody tr:hover td,
+.table tbody tr:hover th {
+  background-color: #f5f5f5;
+}
+
+.table-bordered th, .table-bordered td {
+    border-left: none;
+}
+
+td, th {
+    display: table-cell;
+    vertical-align: inherit!important;
+}
+
+/*************************************
+    2. CUSTOM HEADER
+*************************************/
+.navbar-inverse .navbar-inner {
+  background-color: #3b454a;
+  background-image: none;
+  border-color: transparent;
+}
+.navbar-fixed-top .navbar-inner,
+.navbar-static-top .navbar-inner {
+  -webkit-box-shadow: none;
+     -moz-box-shadow: none;
+          box-shadow: none;
+}
+.navbar-inner {
+  border: 0 none;
+}
+.navbar-inner p {
+  margin-bottom: 0;
+}
+.user-panel {
+  position: relative;
+  top: 12px;
+}
+.navbar .brand {
+  padding: 20px;
+  font-weight: 300;
+  color: #ffffff;
+}
+.navbar .btn-inverse {
+  background: #333333;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #333333), color-stop(1, #404040));
+  background: -ms-linear-gradient(bottom, #333333, #404040);
+  background: -moz-linear-gradient(center bottom, #333333 0%, #404040 100%);
+  background: -o-linear-gradient(bottom, #333333, #404040);
+  filter: progid:dximagetransform.microsoft.gradient(startColorStr='#e6e6e6', EndColorStr='#ffffff');
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#404040',EndColorStr='#333333')";
+  border-top: 1px solid #4d4d4d;
+  border-bottom: 1px solid #0d0d0d;
+}
+.dropdown-menu {
+  left: -20px;
+}
+.dropdown-submenu.pull-left > .dropdown-menu {
+  margin-left: 5px;
+}
+
+/*************************************
+    3. AUTHORIZATION
+*************************************/
+
+/* Content Login */
+.form-sign-in {
+  max-width: 320px;
+  background-color: #ffffff;
+  color: #333333;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+  margin: 60px auto 20px;
+  padding: 19px 29px 29px;
+}
+.form-sign-in h2, .form-sign-in h3 {
+  text-align: center;
+}
+.form-sign-in h3 {
+  margin-bottom: 20px;
+}
+.form-sign-in h2 a, .form-sign-in h2 a:hover {
+  color: #333333;
+  text-decoration: none;
+}
+.form-sign-in .input-xlarge {
+  width: 305px;
+}
+
+input[type="text"],
+input[type="password"] {
+  font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/*************************************
+    4. CUSTOM STYLE
+*************************************/
+
+/* Media Images */
+.monstra-logo {
+  display: block;
+  width: 30%;
+  height: auto;;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* Style Button */
+.administration-area .btn {
+  margin-top: 15px;
+}
+.reset-password-area .btn {
+  margin-top: 27px;
+}
+
+/* Administration */
+.warn {
+  text-align: center;
+}
+
+/* Centered Button */
+.btn-centered {
+  display: block;
+  text-align: center;
+}
+
+/* Footer */
+.footer-info {
+  max-width: 290px;
+  text-align: center;
+  color: #ffffff;
+  margin: 0 auto 60px;
+}
+.footer-info p {
+  margin-bottom: 0;
+}
+.footer-info a, .footer-info a:hover {
+  color: #ffffff;
+}
+
+/* Style Dasboard */
+.page {
+  background-color: #3b454a;
+  background-image: url('@theme_admin_url/img/grey.png');
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+  margin: 30px auto 30px;
+}
+
+.sidebar {
+  color: #ffffff;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 20px 0 20px 020px;
+  overflow: hidden;
+}
+.sidebar h4 {
+  display: block;
+  background: #333333;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #333333), color-stop(1, #404040));
+  background: -ms-linear-gradient(bottom, #333333, #404040);
+  background: -moz-linear-gradient(center bottom, #333333 0%, #404040 100%);
+  background: -o-linear-gradient(bottom, #333333, #404040);
+  filter: progid:dximagetransform.microsoft.gradient(startColorStr='#e6e6e6', EndColorStr='#ffffff');
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#404040',EndColorStr='#333333')";
+  border-top: 1px solid #4d4d4d;
+  border-bottom: 1px solid #0d0d0d;
+  color: #ffffff;
+  padding: 6px 8px;
+}
+.sidebar ul {
+  list-style: none;
+  margin-top: 15px;
+  margin-left: 0;
+}
+.sidebar li {
+  border-top: 1px solid #4E4E4E;
+  border-bottom: 1px solid #393939;
+  padding: 8px;
+}
+.sidebar li:last-child {
+  border-bottom: 1px solid #4E4E4E;
+}
+.sidebar a {
+  color: #ffffff;
+}
+
+.content {
+  min-height: 800px;
+  background-color: #ffffff;
+  color: #555555;
+  padding: 20px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow: hidden;
+}
+
+.monstra-menu-separator {
+  margin-bottom: 25px;
+}
+
+select#pages,
+select#templates,
+select#status,
+select#access {
+  width: 210px;
+}
+
+/* Info Monstra */
+.monstra-info {
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.monstra-info p {
+  margin-bottom: 0;
+}
+.monstra-info a {
+  color: #ffffff;
+}
+
+/*************************************
+    5. MEDIA QUERIES
+*************************************/
+
+@media (min-width: 768px) and (max-width: 979px) {
+  body.admin-dashboard {
+    padding-top: 0;
+  }
+  .content {
+    min-height: 100px;
+  }
+  .page {
+    margin-top: 10px;
+  }
+  .form-sign-in .input-xlarge {
+    width: 305px;
+  }
+}
+@media (max-width: 767px) {
+  body.admin-dashboard {
+    padding-top: 0;
+  }
+  .sidebar {
+    padding: 20px;
+  }
+  .monstra-info {
+    margin-bottom: 20px;
+  }
+  .page {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 640px) {
+  .content {
+    min-height: 100px;
+  }
+}
+@media (max-width: 603px) {
+  .content {
+    min-height: 100px;
+  }
+  .form-sign-in .input-xlarge {
+    width: 319px;
+  }
+}
+@media (max-width: 360px) {
+  .navbar-fixed-top .navbar-inner {
+    padding-bottom: 25px;
+  }
+  .pull-right, .navbar .brand {
+    float: none;
+  }
+  .user-panel, .navbar .brand {
+    top: 0;
+    text-align: center;
+  }
+  .form-sign-in {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .form-sign-in .input-xlarge {
+    width: 273px;
+  }
+}
+@media (max-width: 320px) {
+  .form-sign-in .input-xlarge {
+    width: 233px;
+  }
+}
+@media (max-width: 240px) {
+  .form-sign-in h3 {
+    font-size: 16px;
+  }
+  .form-sign-in .input-xlarge {
+    width: 153px;
+  }
+}

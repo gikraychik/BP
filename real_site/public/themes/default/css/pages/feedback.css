@@ -1,0 +1,24 @@
+/* Feedback page specific styles
+-------------------------------------------------- */
+
+#feedback .content {
+    width: 800px;
+    margin: 0 auto;
+}
+
+#feedback .box {
+    overflow: auto;
+    min-height: 300px;
+}
+
+@media (max-width: 800px) {
+    #feedback .content {
+        width: 500px;
+    }
+}
+
+@media (max-width: 500px) {
+    #feedback .content {
+        width: 300px;
+    }
+}

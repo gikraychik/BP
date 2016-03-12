@@ -1,0 +1,34 @@
+[05-Aug-2015 16:01:30] ErrorException: Parse Error: syntax error, unexpected '<' in /var/www/vhosts/22/136779/webspace/httpdocs/bubble-park.ru/tmp/minify/theme.default.minify.order-form.chunk.php at line 42
+[05-Aug-2015 16:03:27] ErrorException: Parse Error: syntax error, unexpected '<' in /var/www/vhosts/22/136779/webspace/httpdocs/bubble-park.ru/tmp/minify/theme.default.minify.order-form.chunk.php at line 42
+[05-Aug-2015 16:04:20] ErrorException: Parse Error: syntax error, unexpected '<' in /var/www/vhosts/22/136779/webspace/httpdocs/bubble-park.ru/tmp/minify/theme.default.minify.order-form.chunk.php at line 42
+[05-Aug-2015 16:06:17] ErrorException: Parse Error: syntax error, unexpected '<' in /var/www/vhosts/22/136779/webspace/httpdocs/bubble-park.ru/tmp/minify/theme.default.minify.order-form.chunk.php at line 42
+[05-Aug-2015 16:10:37] ErrorException: Parse Error: syntax error, unexpected '<' in /var/www/vhosts/22/136779/webspace/httpdocs/bubble-park.ru/tmp/minify/theme.default.minify.order-form.chunk.php at line 42
+[05-Aug-2015 16:11:09] ErrorException: Parse Error: syntax error, unexpected '<' in /var/www/vhosts/22/136779/webspace/httpdocs/bubble-park.ru/tmp/minify/theme.default.minify.order-form.chunk.php at line 42
+[05-Aug-2015 17:26:54] ErrorException: Warning: mkdir(): File exists in /var/www/vhosts/22/136779/webspace/httpdocs/bubble-park.ru/libraries/Gelato/Cache/Cache.php at line 139
+[05-Aug-2015 17:56:22] phpmailerException: The following From address failed: root@localhost : MAIL FROM command failed,Sender address rejected: not owned by auth user.
+,553,5.7.1SMTP server error: MAIL FROM command failed Detail: Sender address rejected: not owned by auth user.
+ SMTP code: 553 Additional SMTP info: 5.7.1 in /var/www/vhosts/22/136779/webspace/httpdocs/bubble-park.ru/libraries/PHPMailer/class.phpmailer.php at line 1321
+[05-Aug-2015 17:56:27] phpmailerException: The following From address failed: root@localhost : MAIL FROM command failed,Sender address rejected: not owned by auth user.
+,553,5.7.1SMTP server error: MAIL FROM command failed Detail: Sender address rejected: not owned by auth user.
+ SMTP code: 553 Additional SMTP info: 5.7.1 in /var/www/vhosts/22/136779/webspace/httpdocs/bubble-park.ru/libraries/PHPMailer/class.phpmailer.php at line 1321
+[05-Aug-2015 17:56:43] phpmailerException: The following From address failed: root@localhost : MAIL FROM command failed,Sender address rejected: not owned by auth user.
+,553,5.7.1SMTP server error: MAIL FROM command failed Detail: Sender address rejected: not owned by auth user.
+ SMTP code: 553 Additional SMTP info: 5.7.1 in /var/www/vhosts/22/136779/webspace/httpdocs/bubble-park.ru/libraries/PHPMailer/class.phpmailer.php at line 1321
+[05-Aug-2015 17:56:53] phpmailerException: The following From address failed: root@localhost : MAIL FROM command failed,Sender address rejected: not owned by auth user.
+,553,5.7.1SMTP server error: MAIL FROM command failed Detail: Sender address rejected: not owned by auth user.
+ SMTP code: 553 Additional SMTP info: 5.7.1 in /var/www/vhosts/22/136779/webspace/httpdocs/bubble-park.ru/libraries/PHPMailer/class.phpmailer.php at line 1321
+[05-Aug-2015 18:01:58] phpmailerException: The following From address failed: root@localhost : MAIL FROM command failed,Sender address rejected: not owned by auth user.
+,553,5.7.1SMTP server error: MAIL FROM command failed Detail: Sender address rejected: not owned by auth user.
+ SMTP code: 553 Additional SMTP info: 5.7.1 in /var/www/vhosts/22/136779/webspace/httpdocs/bubble-park.ru/libraries/PHPMailer/class.phpmailer.php at line 1321
+[05-Aug-2015 18:02:19] phpmailerException: The following From address failed: root@localhost : MAIL FROM command failed,Sender address rejected: not owned by auth user.
+,553,5.7.1SMTP server error: MAIL FROM command failed Detail: Sender address rejected: not owned by auth user.
+ SMTP code: 553 Additional SMTP info: 5.7.1 in /var/www/vhosts/22/136779/webspace/httpdocs/bubble-park.ru/libraries/PHPMailer/class.phpmailer.php at line 1321
+[05-Aug-2015 18:05:32] ErrorException: Warning: unlink(/var/www/vhosts/22/136779/webspace/httpdocs/bubble-park.ru/tmp/cache/db85c0ea4d2e69c8abaefa875ba77c51/89484b14b36a8d5329426a3d944d2983.txt): No such file or directory in /var/www/vhosts/22/136779/webspace/httpdocs/bubble-park.ru/libraries/Gelato/FileSystem/Dir.php at line 113
+[05-Aug-2015 19:00:24] phpmailerException: The following From address failed: root@localhost : MAIL FROM command failed,Sender address rejected: not owned by auth user.
+,553,5.7.1SMTP server error: MAIL FROM command failed Detail: Sender address rejected: not owned by auth user.
+ SMTP code: 553 Additional SMTP info: 5.7.1 in /var/www/vhosts/22/136779/webspace/httpdocs/bubble-park.ru/libraries/PHPMailer/class.phpmailer.php at line 1321
+[05-Aug-2015 19:00:41] phpmailerException: The following From address failed: root@localhost : MAIL FROM command failed,Sender address rejected: not owned by auth user.
+,553,5.7.1SMTP server error: MAIL FROM command failed Detail: Sender address rejected: not owned by auth user.
+ SMTP code: 553 Additional SMTP info: 5.7.1 in /var/www/vhosts/22/136779/webspace/httpdocs/bubble-park.ru/libraries/PHPMailer/class.phpmailer.php at line 1321
+[05-Aug-2015 20:07:50] ErrorException: Warning: mkdir(): File exists in /var/www/vhosts/22/136779/webspace/httpdocs/bubble-park.ru/libraries/Gelato/Cache/Cache.php at line 139
+[05-Aug-2015 20:17:47] ErrorException: Warning: mkdir(): File exists in /var/www/vhosts/22/136779/webspace/httpdocs/bubble-park.ru/libraries/Gelato/Cache/Cache.php at line 139

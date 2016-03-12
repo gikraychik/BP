@@ -1,0 +1,10 @@
+/* Description page specific styles
+-------------------------------------------------- */
+
+#descr .content p {
+    font-size: 14pt;
+}
+
+#descr .content span {
+    font-size: 13pt;
+}

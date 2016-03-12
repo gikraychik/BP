@@ -1,0 +1,26 @@
+/* Page specific styles
+-------------------------------------------------- */
+
+/* Home */
+@import url("pages/home.css?rev=20121025");
+
+/* Description */
+@import url("pages/description.css?rev=20121025");
+
+/* Price */
+@import url("pages/price.css?rev=20121025");
+
+/* Night */
+@import url("pages/night.css?rev=20121025");
+
+/* Kids */
+@import url("pages/kids.css?rev=20121025");
+
+/* Teambuilding */
+@import url("pages/teambuilding.css?rev=20121025");
+
+/* Feedback */
+@import url("pages/feedback.css?rev=20121025");
+
+/* Contact */
+@import url("pages/contact.css?rev=20121025");

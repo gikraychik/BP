@@ -1,0 +1,10 @@
+[27-Jul-2015 16:19:35] ErrorException: Notice: Undefined variable: content_name in /var/www/vhosts/22/136779/webspace/httpdocs/bubble-park.ru/tmp/minify/theme.default.minify.bubble-all.template.php at line 17
+[27-Jul-2015 16:20:17] ErrorException: Notice: Undefined variable: content_name in /var/www/vhosts/22/136779/webspace/httpdocs/bubble-park.ru/tmp/minify/theme.default.minify.bubble-all.template.php at line 17
+[27-Jul-2015 16:21:13] ErrorException: Notice: Undefined variable: content_name in /var/www/vhosts/22/136779/webspace/httpdocs/bubble-park.ru/tmp/minify/theme.default.minify.bubble-all.template.php at line 17
+[27-Jul-2015 16:21:15] ErrorException: Notice: Undefined variable: content_name in /var/www/vhosts/22/136779/webspace/httpdocs/bubble-park.ru/tmp/minify/theme.default.minify.bubble-all.template.php at line 17
+[27-Jul-2015 16:22:22] ErrorException: Parse Error: syntax error, unexpected '}', expecting ',' or ';' in /var/www/vhosts/22/136779/webspace/httpdocs/bubble-park.ru/tmp/minify/theme.default.minify.bubble-all.template.php at line 8
+[27-Jul-2015 20:31:25] ErrorException: Notice: Undefined variable: __themes_folders in /var/www/vhosts/22/136779/webspace/httpdocs/bubble-park.ru/plugins/box/themes/themes.plugin.php at line 65
+[27-Jul-2015 20:31:32] ErrorException: Notice: Undefined variable: __themes_folders in /var/www/vhosts/22/136779/webspace/httpdocs/bubble-park.ru/plugins/box/themes/themes.plugin.php at line 65
+[27-Jul-2015 20:31:35] ErrorException: Notice: Undefined variable: __themes_folders in /var/www/vhosts/22/136779/webspace/httpdocs/bubble-park.ru/plugins/box/themes/themes.plugin.php at line 65
+[27-Jul-2015 20:31:36] ErrorException: Notice: Undefined variable: __themes_folders in /var/www/vhosts/22/136779/webspace/httpdocs/bubble-park.ru/plugins/box/themes/themes.plugin.php at line 65
+[27-Jul-2015 20:31:38] ErrorException: Notice: Undefined variable: __themes_folders in /var/www/vhosts/22/136779/webspace/httpdocs/bubble-park.ru/plugins/box/themes/themes.plugin.php at line 65

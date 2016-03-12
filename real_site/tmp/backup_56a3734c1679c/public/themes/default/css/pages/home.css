@@ -1,0 +1,103 @@
+/* Home page specific styles
+-------------------------------------------------- */
+
+#home .content {
+    margin-top: 0;
+}
+
+#home .content .row h2 {
+    text-align: center;
+}
+
+#home .video .html5-info-bar {
+    display: none;
+}
+
+#home .col-md-6 .box {
+    padding: 0;
+}
+
+#home .row-pre-down {
+    text-align: center;
+    background-color: #25527f;
+}
+
+#home .title-big {
+    font-size: 48pt;
+    font-family: Domkrat;
+    color: #fff;
+    text-align: center;
+}
+
+#home .down-list {
+    text-align: center;
+}
+
+#home .down-list span{
+    font-size: 20pt;
+    font-family: Domkrat;
+    color: #fff;
+    word-spacing: 3pt;;
+}
+
+#home .owl-carousel {
+    margin-bottom: 50px;
+}
+
+#home .owl-carousel .item {
+    width: 100%;
+    height: 200px;
+}
+
+@media (min-width: 1700px) {
+    #home .owl-carousel .item {
+        height: 300px;
+    }
+}
+
+@media (min-width: 1350px) {
+    #home .owl-carousel .item {
+        height: 250px;
+    }
+}
+
+@media (min-width: 1259px) {
+    #home h2 {
+        font-size: 25pt;
+    }
+
+    #home .col-down-center img {
+        height: 140px !important;
+    }
+}
+
+@media (max-width: 992px) {
+    #home .row > div {
+        margin-bottom: 20px;
+    }
+
+    #home .owl-carousel .item {
+        height: 400px;
+        width: 100%;
+    }
+
+    #home .owl-carousel .item img {
+        height: auto;
+        width: 100%;
+    }
+    
+    #home .row-up {
+        text-align: center;
+    }
+}
+
+@media (max-width: 450px) {
+    #home .content .fullwidth-img{
+        width: 100% !important;
+    }
+
+    #home .owl-carousel .item {
+        height: 236px;
+        width: 100%;
+    }
+}

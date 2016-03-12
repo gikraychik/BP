@@ -1,0 +1,1 @@
+[12-Aug-2015 10:27:36] ErrorException: Warning: mkdir(): File exists in /var/www/vhosts/22/136779/webspace/httpdocs/bubble-park.ru/libraries/Gelato/Cache/Cache.php at line 139

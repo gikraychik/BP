@@ -1,0 +1,7 @@
+[26-Jul-2015 13:22:06] ErrorException: Notice: Undefined offset: 4 in /var/www/vhosts/22/136779/webspace/httpdocs/bubble-park.ru/tmp/minify/theme.default.minify.bubble-all.template.php at line 4
+[26-Jul-2015 13:23:52] ErrorException: Notice: Undefined index: template in /var/www/vhosts/22/136779/webspace/httpdocs/bubble-park.ru/plugins/box/pages/pages.plugin.php at line 243
+[26-Jul-2015 13:26:40] ErrorException: Notice: Undefined index: template in /var/www/vhosts/22/136779/webspace/httpdocs/bubble-park.ru/plugins/box/pages/pages.plugin.php at line 243
+[26-Jul-2015 13:27:06] ErrorException: Notice: Undefined index: template in /var/www/vhosts/22/136779/webspace/httpdocs/bubble-park.ru/plugins/box/pages/pages.plugin.php at line 243
+[26-Jul-2015 13:28:12] ErrorException: Notice: Undefined index: template in /var/www/vhosts/22/136779/webspace/httpdocs/bubble-park.ru/plugins/box/pages/pages.plugin.php at line 243
+[26-Jul-2015 13:32:37] ErrorException: Notice: Undefined index: template in /var/www/vhosts/22/136779/webspace/httpdocs/bubble-park.ru/plugins/box/pages/pages.plugin.php at line 243
+[26-Jul-2015 13:32:44] ErrorException: Notice: Undefined index: template in /var/www/vhosts/22/136779/webspace/httpdocs/bubble-park.ru/plugins/box/pages/pages.plugin.php at line 243

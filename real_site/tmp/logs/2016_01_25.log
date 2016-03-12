@@ -1,0 +1,6 @@
+[25-Jan-2016 19:43:36] phpmailerException: SMTP Error: Could not authenticate. in /var/www/vhosts/22/136779/webspace/httpdocs/bubble-park.ru/libraries/PHPMailer/class.phpmailer.php at line 1458
+[25-Jan-2016 19:59:03] phpmailerException: SMTP Error: Could not authenticate. in /var/www/vhosts/22/136779/webspace/httpdocs/bubble-park.ru/libraries/PHPMailer/class.phpmailer.php at line 1458
+[25-Jan-2016 19:59:40] phpmailerException: SMTP Error: Could not authenticate. in /var/www/vhosts/22/136779/webspace/httpdocs/bubble-park.ru/libraries/PHPMailer/class.phpmailer.php at line 1458
+[25-Jan-2016 20:02:07] phpmailerException: SMTP Error: Could not authenticate. in /var/www/vhosts/22/136779/webspace/httpdocs/bubble-park.ru/libraries/PHPMailer/class.phpmailer.php at line 1458
+[25-Jan-2016 20:06:19] phpmailerException: SMTP Error: Could not authenticate. in /var/www/vhosts/22/136779/webspace/httpdocs/bubble-park.ru/libraries/PHPMailer/class.phpmailer.php at line 1458
+[25-Jan-2016 20:07:21] phpmailerException: SMTP Error: Could not authenticate. in /var/www/vhosts/22/136779/webspace/httpdocs/bubble-park.ru/libraries/PHPMailer/class.phpmailer.php at line 1458
